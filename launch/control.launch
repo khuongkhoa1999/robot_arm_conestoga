@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="controller" pkg="khoa20robot_arm" type="control.py" respawn="false" output="screen">
+  </node>
+
+</launch>
